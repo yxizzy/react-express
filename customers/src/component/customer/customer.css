@@ -1,0 +1,12 @@
+customers {
+    list-style: none;
+    padding: 0;
+    margin: auto;
+    width: 30%
+};
+
+li {
+    font-size: 2rem;
+    line-height: 2rem;
+
+}

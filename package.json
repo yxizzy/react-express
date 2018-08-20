@@ -1,0 +1,23 @@
+{
+  "name": "customer-list-from-backend",
+  "version": "1.0.0",
+  "description": "Boilerplate for react, express",
+  "main": "index.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix customers",
+    "dev": "concurrently \"npm run server \" \"npm run client \""
+
+  },
+  "author": "Sylvia Onwukwe (Yxizzy)",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^3.6.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
